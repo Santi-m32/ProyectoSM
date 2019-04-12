@@ -1,0 +1,7 @@
+package paquete;
+
+public class vehiculos {
+		String marca;
+		char modelo;
+		
+}

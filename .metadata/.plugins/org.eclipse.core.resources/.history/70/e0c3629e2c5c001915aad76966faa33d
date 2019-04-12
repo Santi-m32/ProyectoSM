@@ -1,0 +1,22 @@
+package Paquete;
+public class Vehiculos {
+
+	String Marca;
+	String Precio;
+	}
+	
+	class Autos extends Vehiculos
+	{
+		int ModeloAu;
+		int Puerta;
+
+		public void MarcaAu()
+		{
+			System.out.println("Peugeot");
+		}
+	}
+	class Motos extends Vehiculos
+	{
+		String ModeloMot;
+		String Cilindrada;
+	}

@@ -1,0 +1,10 @@
+package Paquete;
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class Numberformat {
+	float numf;
+	Locale spanish = new Locale("es", "E");
+	NumberFormat nf= NumberFormat.getInstance(spanish);
+	numf= nf.parse(st[2]).floatValue();
+}

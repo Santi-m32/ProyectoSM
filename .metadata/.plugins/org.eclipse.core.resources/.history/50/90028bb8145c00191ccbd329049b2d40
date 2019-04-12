@@ -1,0 +1,19 @@
+package paquete;
+import java.io.*;
+class main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String text = null;
+		InputStreamReader in = new InputStreamReader(System.in);
+		BufferedReader buffer= new BufferedReader(in);
+		try{
+			text=buffer.readLine();
+			}catch(IOException e){};
+			System.out.println(text);
+		}
+
+}

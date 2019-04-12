@@ -1,0 +1,13 @@
+package Paquete;
+
+public class FiltroPalabra {
+
+	String x[]={"206","208","Titan","YBR"};
+
+	String LetraModelo="Y";
+	
+	for(int i=0;i<x.length;i++)
+	{
+		System.out.println(x[i]);
+	}
+}

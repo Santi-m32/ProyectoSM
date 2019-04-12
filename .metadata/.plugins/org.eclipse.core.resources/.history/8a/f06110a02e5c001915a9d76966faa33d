@@ -1,0 +1,29 @@
+package Paquete;
+public class Vehiculos {
+
+	String Marca;
+	String Precio;
+	}
+	
+	class Autos extends Vehiculos
+	{
+		private int Modelo;
+		private int Puerta;
+		/*int Modelo;
+		int Puerta;*/
+		
+		public Autos(String Marca, String Precio, int Modelo, int Puerta)
+		{	
+			this.Modelo=Modelo;
+			this.Puerta=Modelo;
+		}
+		public void MarcaA()
+		{
+			System.out.println("Peugeot");
+		}
+	}
+	class Motos extends Vehiculos
+	{
+		String Modelo;
+		String Cilindrada;
+	}
